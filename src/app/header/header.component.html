@@ -1,0 +1,34 @@
+<nav class="navbar-fixed-top navbar-default" style="height: 4rem; background-color: white; min-height: 80px; box-shadow: 0 8px 6px -6px #999; ">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <img src="./assets/logo2.png" alt="" style="float: left; margin-top: 1.5rem; margin-right: 0rem; margin-left: 3rem;">
+            <a href="#" class="navbar-brand" style="color: black; margin-top: 1rem;" > <strong>Recipe Book</strong></a>
+            
+        </div>
+    
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav" style="margin-top: 1rem;">
+            <li><a routerLink = "/" (click) = "onSelect('mainpage')" >
+                Recipes
+            </a></li>
+            <li ><a routerLink = "/recipe-list" (click) = "onSelect('recipe')" >
+                Recipe List
+            </a></li>
+            <li ><a routerLink = "/shopping-list" (click) = "onSelect('shopping-list')" 
+                routerLinkActive = "active">
+                Shopping List
+            </a></li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right" style="margin-top: 1rem;">
+            <li class="dropdown" appDropdown>
+                <a style="cursor: pointer;" class="dropdown-toggle" role="button">Manage <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a style="cursor: pointer;" (click) = "onSaveData()">Save Data</a></li>
+                    <li><a style="cursor: pointer;" (click) = "onFetchData()">Fetch Data</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>

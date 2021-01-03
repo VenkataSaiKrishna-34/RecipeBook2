@@ -1,0 +1,79 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 210px;
+    height: 41vh;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color:			#F0F0F0;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .contain {
+    padding: 2px 16px;
+    width: 210px;
+  }
+
+ 
+  img {
+    border-radius: 10px 10px 0px 0px;
+    height: 30vh;
+  }
+
+  h4{
+      color: black;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  
+.star-rating{
+	font-size: 0px;
+}
+.star-rating__wrap{
+	display: inline-block;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    /* padding-top: auto; */
+    /* padding-bottom: 0rem;
+    margin-bottom: 0rem; */
+}
+.star-rating__wrap:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.star-rating__ico{
+	float: right;
+	padding-left: 2px;
+	cursor: pointer;
+    color: #FFB300;
+
+}
+.star-rating__ico:last-child{
+	padding-left: 0;
+}
+.star-rating__input{
+	display: none;
+}
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before
+{
+	content: "\f005";
+}
