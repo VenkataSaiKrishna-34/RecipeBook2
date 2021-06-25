@@ -24,8 +24,10 @@ A Web Application which contain multiple food recipes. It also support users to 
 ### 1. Login and SignUp Page:
 ![Login Signup](https://user-images.githubusercontent.com/68644247/123427534-5debed00-d5e2-11eb-8c17-aa24ec63e159.png) <br>
 
-### 2. Landing Page;
+### 2. Landing Page:
 ![Land1](https://user-images.githubusercontent.com/68644247/123428195-2cbfec80-d5e3-11eb-893b-b94c17edd759.png) <br>
+<br>
+<br>
 ![Land2](https://user-images.githubusercontent.com/68644247/123428199-2e89b000-d5e3-11eb-8dc2-3979bd0e0697.png) <br>
 
 ### 3. Internal Page:
